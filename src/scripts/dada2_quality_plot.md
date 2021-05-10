@@ -82,7 +82,7 @@ dev.off()
 sessionInfo()
 ```
 **Visualization example of the quality plot**
-<img src="src/figures/indiv_F_Qplots.tiff" width="98%" height="98%" />
+<img src="src/figures/indiv_F_Qplots.png" width="98%" height="98%" />
 #![alt text](https://github.com/benalric/Metab_pipeline_v2/blob/main/src/figures/indiv_F_Qplots.tiff "scala_classes")
 
 *Description of quality plots:*
