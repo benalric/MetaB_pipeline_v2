@@ -137,3 +137,5 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
 # Version of packages used to build this document
 sessionInfo()
 ```
+
+[**Next, Step 8: Remove chimeras**](https://github.com/benalric/Metab_pipeline_v2/tree/main/src/dada2_chimeras.md)
