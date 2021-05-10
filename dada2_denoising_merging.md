@@ -1,4 +1,4 @@
-### **Steps 4-7: Denoising, and merging**
+## **Steps 4-7: Denoising, and merging**
 After it understands the error rates, a dereplication step is required to condense the data by collapsing together all reads that encode the same sequence, which significantly reduces later computation times. Then, using the dereplicated data and error rates, `dada2` will infer the ASVs in our data.
 
 | <span> |

@@ -1,4 +1,4 @@
-### **Step 2: Filtering and trimming**
+## **Step 2: Filtering and trimming**
 In sequence data, low-quality sequences can contain unexpected and misleading errors, and Illumina sequencing quality tends to drop off at the end of reads.
 Therefore, before chosing sequence variants, we trim reads where their quality scores begin to drop (the `truncLen` and `truncQ` values) and remove any low-quality reads that are left over after we have finished trimming (the `maxEE` value).
 

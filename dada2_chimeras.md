@@ -1,4 +1,4 @@
-### **Step 8: Remove Chimeras**
+## **Step 8: Remove Chimeras**
 Although `dada2` has searched for indel errors and substitutions, there may still be chimeric sequences in our dataset that are another important source of spurious sequences in amplicon sequencing. Chimeras are sequences that are derived form forward and reverse sequences from two different organisms becoming fused together during PCR and/or sequencing. To identify chimeras, we search for rare sequences variants that can be reconstructed by combining left-hand and right-hand segments from two more abudant "parent" sequences.
 
 | <span> |
