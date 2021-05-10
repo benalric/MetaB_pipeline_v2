@@ -89,7 +89,7 @@ for (i in fastqFs) {
 rm(out)
 }
 
-## **Version of packages used to build this document**
+# Version of packages used to build this document
 sessionInfo()
 ```
 | <span> |
