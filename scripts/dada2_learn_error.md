@@ -98,6 +98,10 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
   save(errR, file = paste0(path, "/dada2/log/errR_",i,".rda")) # CHANGE ME to where you want sequence table saved
 }
 
+# Version of packages used to build this document
+sessionInfo()
+```
+
 **Visualization example of the estimates error rates**
 
 ![image](https://github.com/benalric/Metab_pipeline_v2/blob/main/figures/errF_PHYTOPORT_Cut1.png)
@@ -107,6 +111,3 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
 | **NOTE:** We want to make sure that the machine learning algorithm is learning the erroe rates properly. In plot of learning error rates, the red line represents what we should expect the learned error rates to look like for each of the 16 possible base transitions (A->A, A->C, A->G, etc.). Grey points are the obeserved error rates for each consensus quality score and black lines shown the error rates expected under the nominal definiton of the Q-score. The expected error rates should have a good fit with the observed rates, and the error rates must drop with increased quality. If black lines and red lines are very far off from each other, it may be a good idea to indrease the `nbases` parameter. This allows the machine leraning algorithm to train on a larger portion of your data and may help improve the fit. |
 | <span> |
 
-# Version of packages used to build this document
-sessionInfo()
-```
