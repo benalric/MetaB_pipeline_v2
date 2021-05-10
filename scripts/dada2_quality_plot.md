@@ -82,7 +82,7 @@ dev.off()
 sessionInfo()
 ```
 **Visualization example of the quality plot**
-<img src="figures/indiv_F_Qplots.png" width="645" />
+<img src="figures/indiv_F_Qplots.png" />
 
 
 *Description of quality plots:*
