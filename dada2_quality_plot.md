@@ -1,4 +1,4 @@
-### **Step 1: Inspect read quality profiles**
+## **Step 1: Inspect read quality profiles**
 It is important to get a feel for the quality of the data that we are using. To do this, we will plot the quality of samples. These plots allow us to define where the quality of the sequences falls.
 
 | <span> |
