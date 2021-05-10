@@ -101,3 +101,5 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
 # Version of packages used to build this document
 sessionInfo()
 ```
+
+[Next, Steps 4-7: Denoising, and merging](https://github.com/benalric/Metab_pipeline_v2/tree/main/src/dada2_denoising_merging.md)
