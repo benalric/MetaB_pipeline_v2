@@ -1,4 +1,4 @@
-<a name="Step-1:-Inspect-read-quality-profiles"></a>
+
 
 ## **Step 1: Inspect read quality profiles**
 It is important to get a feel for the quality of the data that we are using. To do this, we will plot the quality of samples. These plots allow us to define where the quality of the sequences falls.
@@ -85,7 +85,7 @@ sessionInfo()
 ```
 
 
-<a name="Step-2:-Filtering-and-trimming"></a>
+
 
 ## **Step 2: Filtering and trimming**
 In sequence data, low-quality sequences can contain unexpected and misleading errors, and Illumina sequencing quality tends to drop off at the end of reads.
@@ -229,7 +229,7 @@ sessionInfo()
 ```
 
 
-<a name="Step-3:-Learn-error-rates"></a>
+
 
 ## **Step 3: Learn error rates**
 Errors can be introduced by PCR amplification and sequencing. In this part of the pipeline `dada2` will learn to distinguish error from biological differences using a subset of our data as a training set. The `learnErrors()` method learns this error model from the data, by alternating estimation of the error rates and inference of sample composition until they converge on a jointly consistent solution. he error parameters typically vary between sequencing runs and PCR protocols, so this method provides a way to estimate those parameters from the data itself.
@@ -335,7 +335,7 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
 sessionInfo()
 ```
 
-<a name="Steps-4-7:-Denoising,-and-merging"></a>
+
 
 ## **Steps 4-7: Denoising, and merging**
 After it understands the error rates, a dereplication step is required to condense the data by collapsing together all reads that encode the same sequence, which significantly reduces later computation times. Then, using the dereplicated data and error rates, `dada2` will infer the ASVs in our data.
@@ -477,7 +477,7 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
 sessionInfo()
 ```
 
-<a name="Step-8:-Remove-chimeras"></a>
+
 
 ## **Step 8: Remove Chimeras**
 Although `dada2` has searched for indel errors and substitutions, there may still be chimeric sequences in our dataset that are another important source of spurious sequences in amplicon sequencing. Chimeras are sequences that are derived form forward and reverse sequences from two different organisms becoming fused together during PCR and/or sequencing. To identify chimeras, we search for rare sequences variants that can be reconstructed by combining left-hand and right-hand segments from two more abudant "parent" sequences.
