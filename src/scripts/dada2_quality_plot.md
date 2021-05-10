@@ -82,7 +82,7 @@ dev.off()
 sessionInfo()
 ```
 **Visualization example of the quality plot**
-![plot1](https://github.com/benalric/CoCA/blob/main/figures/plot1.png)
+![plot1](https://github.com/benalric/Metab_pipeline_v2/blob/main/src/figures/indiv_F_Qplots.tiff)
 
 *Description of quality plots:*
 >In gray-scale is a heat map of the frequency of each quality score at each base position. The median quality score at each position id shown by the green line, and the quartiles of the quality score distribution by the orange lines. Th ered line shown the scaled proportion of reads that extend to at least that position (this is more useful for other sequecing technologies, as Illumina reads are typically all the same length, hence the flat red line).
