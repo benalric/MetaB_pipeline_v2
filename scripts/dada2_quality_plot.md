@@ -83,6 +83,9 @@ sessionInfo()
 ```
 **Visualization example of the quality plot**
 
+![Figure 1. The example dataset: predictor variables and occurrence for
+four species.](man/figures/indiv_F_Qplots.png)
+
 <img src="figures/indiv_F_Qplots.png" />
 
 
