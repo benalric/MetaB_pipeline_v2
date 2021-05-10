@@ -81,3 +81,5 @@ dev.off()
 # Version of packages used to build this document
 sessionInfo()
 ```
+
+[Step 2: Filtering and trimming](https://github.com/benalric/Metab_pipeline_v2/tree/main/src/dada2_filtering_trimming.md)
