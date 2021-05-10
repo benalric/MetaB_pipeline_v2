@@ -84,7 +84,7 @@ sessionInfo()
 **Visualization example of the quality plot**
 
 ![Figure 1. The example dataset: predictor variables and occurrence for
-four species.](man/figures/indiv_F_Qplots.png)
+four species.](https://github.com/benalric/Metab_pipeline_v2/tree/main/figures)
 
 <img src="figures/indiv_F_Qplots.png" />
 
