@@ -82,7 +82,6 @@ dev.off()
 sessionInfo()
 ```
 **Visualization example of the quality plot**
-![plot1](https://github.com/benalric/Metab_pipeline_v2/blob/main/src/figures/indiv_F_Qplots.tiff)
 <img src="figures/indiv_F_Qplots.tiff" width="98%" height="98%" />
 
 *Description of quality plots:*
