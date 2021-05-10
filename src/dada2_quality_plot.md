@@ -5,9 +5,6 @@ It is important to get a feel for the quality of the data that we are using. To 
 | :------------------------------------------------------------------------------------------------------------ |
 | **NOTE:** Plots summarizing the quality of the reads are generated at sample scale. |
 | <sapn> |
-  
-  *Description of quality plots:*
-  >In gray-scale is a heat map of the frequency of each quality score at each base position. The median quality score at each position id shown by the green line, and the quartiles of the quality score distribution by the orange lines. Th ered line shown the scaled proportion of reads that extend to at least that position (this is more useful for other sequecing technologies, as Illumina reads are typically all the same length, hence the flat red line).
 
 ```bash
 #!/bin/bash
@@ -81,5 +78,10 @@ dev.off()
 # Version of packages used to build this document
 sessionInfo()
 ```
+*Description of quality plots:*
+  >In gray-scale is a heat map of the frequency of each quality score at each base position. The median quality score at each position id shown by the green line, and the quartiles of the quality score distribution by the orange lines. Th ered line shown the scaled proportion of reads that extend to at least that position (this is more useful for other sequecing technologies, as Illumina reads are typically all the same length, hence the flat red line).
+
+**Visualization example of the quality plot**
+
 
 [**Next, Step 2: Filtering and trimming**](https://github.com/benalric/Metab_pipeline_v2/tree/main/src/dada2_filtering_trimming.md)
