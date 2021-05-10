@@ -82,4 +82,4 @@ dev.off()
 sessionInfo()
 ```
 
-[Step 2: Filtering and trimming](https://github.com/benalric/Metab_pipeline_v2/tree/main/src/dada2_filtering_trimming.md)
+[**Next Step: Filtering and trimming**](https://github.com/benalric/Metab_pipeline_v2/tree/main/src/dada2_filtering_trimming.md)
