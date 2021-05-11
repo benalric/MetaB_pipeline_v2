@@ -86,4 +86,4 @@ sessionInfo()
 >In gray-scale is a heat map of the frequency of each quality score at each base position. The median quality score at each position id shown by the green line, and the quartiles of the quality score distribution by the orange lines. Th ered line shown the scaled proportion of reads that extend to at least that position (this is more useful for other sequecing technologies, as Illumina reads are typically all the same length, hence the flat red line).
 
 
-[Step 2: Filtering and trimming](https://github.com/benalric/MetaB_pipeline_v2/blob/main/scripts/dada2_filtering_trimming.md)
+[**Next, Step 2: Filtering and trimming**](https://github.com/benalric/MetaB_pipeline_v2/blob/main/scripts/dada2_filtering_trimming.md)
