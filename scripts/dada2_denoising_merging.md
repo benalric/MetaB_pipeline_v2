@@ -138,4 +138,4 @@ foreach(i = runs, .packages = c("data.table","dada2")) %dopar% {
 sessionInfo()
 ```
 
-[**Next, Step 8: Remove chimeras**](https://github.com/benalric/Metab_pipeline_v2/tree/main/sript/dada2_chimeras.md)
+[**Next, Step 8: Remove chimeras**](https://github.com/benalric/MetaB_pipeline_v2/blob/main/scripts/dada2_chimeras.md)
