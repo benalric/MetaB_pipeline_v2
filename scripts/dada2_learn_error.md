@@ -108,4 +108,4 @@ sessionInfo()
 | <span> |
 
 
-[**Next, Steps 4-7: Denoising and merging**](https://github.com/benalric/Metab_pipeline_v2/tree/main/scripts/dada2_denoising_merging.md)
+[**Next, Steps 4-7: Denoising and merging**](https://github.com/benalric/MetaB_pipeline_v2/blob/main/scripts/dada2_denoising_merging.md)
