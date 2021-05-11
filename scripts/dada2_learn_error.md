@@ -1,10 +1,6 @@
 ## **Step 3: Learn error rates**
 Errors can be introduced by PCR amplification and sequencing. In this part of the pipeline `dada2` will learn to distinguish error from biological differences using a subset of our data as a training set. The `learnErrors()` method learns this error model from the data, by alternating estimation of the error rates and inference of sample composition until they converge on a jointly consistent solution. he error parameters typically vary between sequencing runs and PCR protocols, so this method provides a way to estimate those parameters from the data itself.
 
-| <span> |
-| :------------------------------------------------------------------------------------------------------------ |
-| **NOTE:** We want to make sure that the machine learning algorithm is learning the erroe rates properly. In plot of learning error rates, the red line represents what we should expect the learned error rates to look like for each of the 16 possible base transitions (A->A, A->C, A->G, etc.). Grey points are the obeserved error rates for each consensus quality score and black lines shown the error rates expected under the nominal definiton of the Q-score. The expected error rates should have a good fit with the observed rates, and the error rates must drop with increased quality. If black lines and red lines are very far off from each other, it may be a good idea to indrease the `nbases` parameter. This allows the machine leraning algorithm to train on a larger portion of your data and may help improve the fit. |
-| <span> |
 
 ```bash
 #!/bin/bash
@@ -111,3 +107,5 @@ sessionInfo()
 | **NOTE:** We want to make sure that the machine learning algorithm is learning the erroe rates properly. In plot of learning error rates, the red line represents what we should expect the learned error rates to look like for each of the 16 possible base transitions (A->A, A->C, A->G, etc.). Grey points are the obeserved error rates for each consensus quality score and black lines shown the error rates expected under the nominal definiton of the Q-score. The expected error rates should have a good fit with the observed rates, and the error rates must drop with increased quality. If black lines and red lines are very far off from each other, it may be a good idea to indrease the `nbases` parameter. This allows the machine leraning algorithm to train on a larger portion of your data and may help improve the fit. |
 | <span> |
 
+
+[**Next, Steps 4-7: Denoising and merging**](https://github.com/benalric/Metab_pipeline_v2/tree/main/scripts/dada2_denoising_merging.md)
