@@ -137,3 +137,5 @@ filter %>%
 # Version of packages used to build this document
 sessionInfo()
 ```
+
+[**Next, Step 3: Learn error rates**](https://github.com/benalric/Metab_pipeline_v2/tree/main/scripts/dada2_learn_error.md)
