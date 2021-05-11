@@ -138,4 +138,4 @@ filter %>%
 sessionInfo()
 ```
 
-[**Next, Step 3: Learn error rates**](https://github.com/benalric/Metab_pipeline_v2/tree/main/scripts/dada2_learn_error.md)
+[**Next, Step 3: Learn error rates**](https://github.com/benalric/MetaB_pipeline_v2/blob/main/scripts/dada2_learn_error.md)
